@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Game of Thrones";
+    src: url(GameofThrones.ttf) format("truetype");
+}
+
+p { 
+    font-family: "Game of Thrones", sans-serif;
+    line-height: 25px;
+}

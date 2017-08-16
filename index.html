@@ -2,25 +2,37 @@
 <html>
 <head>
 	<title>Hangman!</title>
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet">
 </head>
 <body>
 
-<h1>Hangman GOT Style!</h1>
+<img src="https://fontmeme.com/permalink/170816/0303e543413829e50be268b7ac4b3828.png" alt="game-of-thrones-font" border="0">
+<img src="https://fontmeme.com/permalink/170816/e3fe4dfce4722d2b2fba0380788b6b10.png" alt="game-of-thrones-font" border="0">
 
-<p>Press any key to get started</p>
+<p id="pAgain">Press any key to get started.</p>
 
 <p>Wins</p>
 
-<p>Put wins here</p>
+<p id="tWins">...</p>
+
+<p>Losses</p>
+
+<p id="tLosses">...</p>
+
 
 <p>Current Word</p>
 
-<p id="currentWord">Underscores here</p>
+<p id="cWord">...</p>
 
-<p id="guessesLeft">Number of guesses remaining</p>
+<p>Letters Guessed: <span id="gLetters">...</span></p>
 
-<p>...</p>
+<p>Number of guesses remaining</p>
+
+<p id="gLeft">...</p>
 
 </body>
 </html>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
